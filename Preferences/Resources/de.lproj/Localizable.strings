@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCBackgroundStylePhotoAlertMessage</key>
+	<string>Es kann nicht auf die Fotobibliothek zugegriffen werden.</string>
+	<key>CCBackgroundStylePhotoAlertTitle</key>
+	<string>Fotos können nicht geladen werden&#160;!</string>
+	<key>CCCacheAlertBlurMessage</key>
+	<string>Weichgezeichnete Reflexionen erfordern ein erneutes Erstellen des Caches. Möchtest du den Cover-Cache bereinigen&#160;?</string>
+	<key>CCCacheAlertCancel</key>
+	<string>Abbrechen</string>
+	<key>CCCacheAlertCleanUp</key>
+	<string>Bereinigen</string>
+	<key>CCCacheAlertMessage</key>
+	<string>Möchtest du den Cover-Cache bereinigen&#160;?</string>
+	<key>CCCacheAlertNoBlurMessage</key>
+	<string>Einfache Reflexionen erfordern ein erneutes Erstellen des Caches. Möchtest du den Cover-Cache bereinigen&#160;?</string>
+	<key>CCCacheAlertOrphanedArtworksMessage</key>
+	<string>Möchtest du die verwaisten Cover im Cache entfernen&#160;?</string>
+	<key>CCCacheAlertSizeMessage</key>
+	<string>Das Ändern der Cover-Größe erfordert ein erneutes Erstellen des Caches. Möchtest du den Cover-Cache bereinigen&#160;?</string>
+	<key>CCCacheArtworksTitle</key>
+	<string>Cover-Cache leeren</string>
+	<key>CCCacheOrphanedArtworksTitle</key>
+	<string>Verwaiste Cover entfernen</string>
+	<key>CCCacheSubTitleNoArtworks</key>
+	<string>Keine Cover im Cache</string>
+	<key>CCCacheSubTitleNoOrphanedArtworks</key>
+	<string>Keine verwaisten Cover im Cache</string>
+	<key>CCCacheSubTitlePlural</key>
+	<string>%u Albencover mit einer Größe von %@</string>
+	<key>CCCacheSubTitleSingular</key>
+	<string>%u Albumcover mit einer Größe von %@</string>
+	<key>CCOpenSourceAlertMessage</key>
+	<string>Die Datei „%@“ wurde nicht in den Ressourcen gefunden.</string>
+	<key>CCOpenSourceAlertTitle</key>
+	<string>Open-Source-Hinweise wurden nicht gefunden&#160;!</string>
+	<key>CCOpenSourceLabel</key>
+	<string>Open-Source-Hinweise</string>
+	<key>MTBinarySizeBytes</key>
+	<string>Byte</string>
+	<key>MTBinarySizeGB</key>
+	<string>GiB</string>
+	<key>MTBinarySizeKB</key>
+	<string>KiB</string>
+	<key>MTBinarySizeMB</key>
+	<string>MiB</string>
+	<key>MTGeneralOK</key>
+	<string>OK</string>
+	<key>MTSocialSourceSubTitle</key>
+	<string>GitHub</string>
+	<key>MTSocialSourceTitle</key>
+	<string>Quellcode</string>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCDateAdded</key>
+	<string>Adicionado à Biblioteca:</string>
+	<key>CCDiscNumber</key>
+	<string>Disco %1$lu de %2$lu</string>
+	<key>CCDuration</key>
+	<string>Duração:</string>
+	<key>CCGenre</key>
+	<string>Género:</string>
+	<key>CCLastPlayed</key>
+	<string>Última reprodução:</string>
+	<key>CCLastPlayedLastTwoWeeks</key>
+	<string>Há duas Semanas</string>
+	<key>CCLastPlayedLastWeek</key>
+	<string>Semana Passada</string>
+	<key>CCLastPlayedLongTime</key>
+	<string>Há muito Tempo</string>
+	<key>CCLastPlayedNever</key>
+	<string>Nunca</string>
+	<key>CCLastPlayedOneMonth</key>
+	<string>Há um Mês</string>
+	<key>CCLastPlayedOneYear</key>
+	<string>Há um Ano</string>
+	<key>CCLastPlayedSixMonths</key>
+	<string>Há seis Meses</string>
+	<key>CCLastPlayedThreeMonths</key>
+	<string>Há três Meses</string>
+	<key>CCLastPlayedThreeWeeks</key>
+	<string>Há três Semanas</string>
+	<key>CCLastPlayedToday</key>
+	<string>Hoje</string>
+	<key>CCLastPlayedTwoYears</key>
+	<string>Há dois Anos</string>
+	<key>CCLastPlayedYesterday</key>
+	<string>Ontem</string>
+	<key>CCTrackCountPlural</key>
+	<string>%@ Faixas</string>
+	<key>CCTrackCountSingular</key>
+	<string>%@ Faixa</string>
+</dict>
+</plist>

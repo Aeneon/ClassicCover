@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCAlbumMetaAutoHideSwitch</key>
+	<string>Automatisch verbergen</string>
+	<key>CCAlbumMetaFooter</key>
+	<string>Verberg de Albuminformatie in de Hoofdweergave automatisch na 5 Seconden Inactiviteit&#160;…</string>
+	<key>CCAlbumMetaLabel</key>
+	<string>Albuminformatie</string>
+	<key>CCArtworkSizeBigLabel</key>
+	<string>Groot</string>
+	<key>CCArtworkSizeFooter</key>
+	<string>Grotere Covers zien er mooier uit, maar kosten wat meer Prestaties. Houd hier rekening mee als je ClassicCover op oudere Apparaten gebruikt&#160;…</string>
+	<key>CCArtworkSizeLabel</key>
+	<string>Cover-Grootte</string>
+	<key>CCArtworkSizeMediumLabel</key>
+	<string>Gemiddeld</string>
+	<key>CCArtworkSizeSmallLabel</key>
+	<string>Klein</string>
+	<key>CCBackgroundColorLabel</key>
+	<string>Achtergrondkleur</string>
+	<key>CCBackgroundImageButton</key>
+	<string>Achtergrondafbeelding kiezen</string>
+	<key>CCBackgroundLabel</key>
+	<string>Achtergrond</string>
+	<key>CCBackgroundStyleColorAlbumLabel</key>
+	<string>Kleur van het Album</string>
+	<key>CCBackgroundStyleColorPlainLabel</key>
+	<string>Effen Kleur</string>
+	<key>CCBackgroundStyleColorRandomLabel</key>
+	<string>Willekeurige Kleur</string>
+	<key>CCBackgroundStyleFooter</key>
+	<string>Voor de Opties “Foto” en “Foto met vervaging” is Toegang tot de Fotobibliotheek nodig&#160;…</string>
+	<key>CCBackgroundStyleLabel</key>
+	<string>Achtergrondstijl</string>
+	<key>CCBackgroundStylePhotoBlurLabel</key>
+	<string>Foto met Vervaging</string>
+	<key>CCBackgroundStylePhotoLabel</key>
+	<string>Foto</string>
+	<key>CCBackgroundStyleWallpaperBlurLabel</key>
+	<string>Achtergrondafbeelding met Vervaging</string>
+	<key>CCCacheFooter</key>
+	<string>Af en toe opschonen kan nuttig zijn om Covers te verwijderen die niet meer bestaan of verouderd zijn.</string>
+	<key>CCCacheLabel</key>
+	<string>Cover-Cache</string>
+	<key>CCCoverLabel</key>
+	<string>Coverstijl&#160;&amp; -Grootte</string>
+	<key>CCCoverStyleCoverFlowAlternateLabel</key>
+	<string>CoverFlow&#160;(&#160;Alternatief&#160;)</string>
+	<key>CCCoverStyleCoverFlowLabel</key>
+	<string>CoverFlow</string>
+	<key>CCCoverStyleCylinderInvertedLabel</key>
+	<string>Cilinder&#160;(&#160;Omgekeerd&#160;)</string>
+	<key>CCCoverStyleCylinderLabel</key>
+	<string>Cilinder</string>
+	<key>CCCoverStyleFooter</key>
+	<string>De beschikbare Cover-Stijlen zijn gebaseerd op het Framework “iCarousel” van Nick Lockwood&#160;…</string>
+	<key>CCCoverStyleLabel</key>
+	<string>Cover-Stijl</string>
+	<key>CCCoverStyleLinearLabel</key>
+	<string>Lineair</string>
+	<key>CCCoverStyleRotaryInvertedLabel</key>
+	<string>Roterend&#160;(&#160;Omgekeerd&#160;)</string>
+	<key>CCCoverStyleRotaryLabel</key>
+	<string>Roterend</string>
+	<key>CCCoverStyleTimeMachineInvertedLabel</key>
+	<string>Time Machine&#160;(&#160;Omgekeerd&#160;)</string>
+	<key>CCCoverStyleTimeMachineLabel</key>
+	<string>Time Machine</string>
+	<key>CCCoverStyleWheelInvertedLabel</key>
+	<string>Wiel&#160;(&#160;Omgekeerd&#160;)</string>
+	<key>CCCoverStyleWheelLabel</key>
+	<string>Wiel</string>
+	<key>CCDebugFooter</key>
+	<string>Statusmeldingen loggen met NSLog.</string>
+	<key>CCDebugLabel</key>
+	<string>Debug-Logging</string>
+	<key>CCDebugSwitch</key>
+	<string>Logging inschakelen</string>
+	<key>CCDemoEnableSwitch</key>
+	<string>Demo-Loop inschakelen</string>
+	<key>CCDemoFooter</key>
+	<string>In de Demomodus schakelt ClassicCover af en toe tussen Albums en het Detailscherm. Je kunt de Presentatie van je Muziekcollectie onderbreken door door je Collectie te Bladeren of een Nummer af te spelen. Na een minuut Inactiviteit keert ClassicCover terug naar de Demomodus&#160;…</string>
+	<key>CCDemoLabel</key>
+	<string>Demo-Loop</string>
+	<key>CCEnableLabel</key>
+	<string>Tweak inschakelen</string>
+	<key>CCEnableSwitch</key>
+	<string>ClassicCover inschakelen</string>
+	<key>CCHapticFeedbackFooter</key>
+	<string>Gebruik de Taptic Engine van je iPhone voor subtiele Feedback tijdens de Interactie met Bedieningselementen&#160;…</string>
+	<key>CCHapticFeedbackLabel</key>
+	<string>Haptiek</string>
+	<key>CCHapticFeedbackSwitch</key>
+	<string>Haptische Feedback</string>
+	<key>CCOpenSourceButton</key>
+	<string>Open-Source-Vermeldingen</string>
+	<key>CCOpenSourceFooter</key>
+	<string>Bekijk de Licentievoorwaarden van de gebruikte Open-Source-Componenten.</string>
+	<key>CCOpenSourceLabel</key>
+	<string>Open Source</string>
+	<key>CCPreventSleepFooter</key>
+	<string>Als de Slaapstand van het Scherm altijd is uitgeschakeld, gaat het Scherm minder lang mee.</string>
+	<key>CCPreventSleepSwitch</key>
+	<string>Het Scherm ingeschakeld laten</string>
+	<key>CCSocialLabel</key>
+	<string>Sociale Netwerken</string>
+	<key>CCSortByAlbumArtistLabel</key>
+	<string>Op Albumartiest</string>
+	<key>CCSortByAlbumLabel</key>
+	<string>Op Album</string>
+	<key>CCSortByArtistLabel</key>
+	<string>Op Artiest</string>
+	<key>CCSortByDateAddedAscendingLabel</key>
+	<string>Op Datum toegevoegd ↑</string>
+	<key>CCSortByDateAddedDescendingLabel</key>
+	<string>Op Datum toegevoegd ↓</string>
+	<key>CCSortByFooter</key>
+	<string>Let bij het Sorteren op Datum op de Volgorde:
+
+↑&#160;= Sorteren van “Vandaag” naar “Heel lang geleden”.
+↓&#160;= Sorteren van “Heel lang geleden” naar “Vandaag”.</string>
+	<key>CCSortByGenreLabel</key>
+	<string>Op Genre</string>
+	<key>CCSortByLabel</key>
+	<string>Albums sorteren</string>
+	<key>CCSortByLastPlayedDateAscendingLabel</key>
+	<string>Op Datum laatst afgespeeld ↑</string>
+	<key>CCSortByLastPlayedDateDescendingLabel</key>
+	<string>Op Datum laatst afgespeeld ↓</string>
+	<key>CCSortByRandomLabel</key>
+	<string>Willekeurige Volgorde</string>
+	<key>CCSortFooter</key>
+	<string>Kies een Volgorde om de Albums te sorteren&#160;…</string>
+	<key>CCSortLabel</key>
+	<string>Sorteervolgorde</string>
+	<key>CCVisualEffectsFlipShadowSwitch</key>
+	<string>Schaduw voor Albumweergave</string>
+	<key>CCVisualEffectsFooter</key>
+	<string>Reflecties kosten de nodige Prestaties. Houd hier rekening mee als je ClassicCover op oudere Apparaten gebruikt&#160;…</string>
+	<key>CCVisualEffectsLabel</key>
+	<string>Visuele Effecten</string>
+	<key>CCVisualEffectsReflectionBlurSwitch</key>
+	<string>⤷&#160;… vervagen</string>
+	<key>CCVisualEffectsReflectionSwitch</key>
+	<string>Reflecties</string>
+</dict>
+</plist>

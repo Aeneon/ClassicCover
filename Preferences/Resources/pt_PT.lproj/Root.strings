@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCAlbumMetaAutoHideSwitch</key>
+	<string>Ocultar automaticamente</string>
+	<key>CCAlbumMetaFooter</key>
+	<string>Oculta automaticamente as Informações do Álbum na Ecrã Principal após 5 Segundos de Inatividade&#160;…</string>
+	<key>CCAlbumMetaLabel</key>
+	<string>Informações do Álbum</string>
+	<key>CCArtworkSizeBigLabel</key>
+	<string>Grande</string>
+	<key>CCArtworkSizeFooter</key>
+	<string>Capas maiores ficam mais bonitas, mas exigem um pouco mais de Desempenho. Tenha isso em mente ao usar o ClassicCover em Dispositivos mais antigos&#160;…</string>
+	<key>CCArtworkSizeLabel</key>
+	<string>Tamanho das capas</string>
+	<key>CCArtworkSizeMediumLabel</key>
+	<string>Média</string>
+	<key>CCArtworkSizeSmallLabel</key>
+	<string>Pequena</string>
+	<key>CCBackgroundColorLabel</key>
+	<string>Cor de Fundo</string>
+	<key>CCBackgroundImageButton</key>
+	<string>Escolher Imagem de Fundo</string>
+	<key>CCBackgroundLabel</key>
+	<string>Fundo</string>
+	<key>CCBackgroundStyleColorAlbumLabel</key>
+	<string>Cor do Álbum</string>
+	<key>CCBackgroundStyleColorPlainLabel</key>
+	<string>Cor sólida</string>
+	<key>CCBackgroundStyleColorRandomLabel</key>
+	<string>Cor aleatória</string>
+	<key>CCBackgroundStyleFooter</key>
+	<string>As Opções “Foto” e “Foto desfocada” exigem Acesso à Biblioteca de Fotos&#160;…</string>
+	<key>CCBackgroundStyleLabel</key>
+	<string>Estilo de Fundo</string>
+	<key>CCBackgroundStylePhotoBlurLabel</key>
+	<string>Foto desfocada</string>
+	<key>CCBackgroundStylePhotoLabel</key>
+	<string>Foto</string>
+	<key>CCBackgroundStyleWallpaperBlurLabel</key>
+	<string>Imagem de Fundo desfocada</string>
+	<key>CCCacheFooter</key>
+	<string>De vez em quando, uma Limpeza pode ser útil para remover Capas que não existem mais ou estão desatualizadas.</string>
+	<key>CCCacheLabel</key>
+	<string>Cache das Capas</string>
+	<key>CCCoverLabel</key>
+	<string>Estilo e Tamanho das Capas</string>
+	<key>CCCoverStyleCoverFlowAlternateLabel</key>
+	<string>CoverFlow&#160;(&#160;Alternativo&#160;)</string>
+	<key>CCCoverStyleCoverFlowLabel</key>
+	<string>CoverFlow</string>
+	<key>CCCoverStyleCylinderInvertedLabel</key>
+	<string>Cilindro&#160;(&#160;Invertido&#160;)</string>
+	<key>CCCoverStyleCylinderLabel</key>
+	<string>Cilindro</string>
+	<key>CCCoverStyleFooter</key>
+	<string>Os Estilos de Capa disponíveis são baseados no Framework “iCarousel” de Nick Lockwood&#160;…</string>
+	<key>CCCoverStyleLabel</key>
+	<string>Estilo da Capa</string>
+	<key>CCCoverStyleLinearLabel</key>
+	<string>Linear</string>
+	<key>CCCoverStyleRotaryInvertedLabel</key>
+	<string>Rotativo&#160;(&#160;Invertido&#160;)</string>
+	<key>CCCoverStyleRotaryLabel</key>
+	<string>Rotativo</string>
+	<key>CCCoverStyleTimeMachineInvertedLabel</key>
+	<string>Time Machine&#160;(&#160;Invertido&#160;)</string>
+	<key>CCCoverStyleTimeMachineLabel</key>
+	<string>Time Machine</string>
+	<key>CCCoverStyleWheelInvertedLabel</key>
+	<string>Roda&#160;(&#160;Invertida&#160;)</string>
+	<key>CCCoverStyleWheelLabel</key>
+	<string>Roda</string>
+	<key>CCDebugFooter</key>
+	<string>Registra Mensagens de Status via NSLog.</string>
+	<key>CCDebugLabel</key>
+	<string>Registro de Depuração</string>
+	<key>CCDebugSwitch</key>
+	<string>Ativar o Registro</string>
+	<key>CCDemoEnableSwitch</key>
+	<string>Ativar o Loop de Demonstração</string>
+	<key>CCDemoFooter</key>
+	<string>No Modo de Demonstração, o ClassicCover alterna periodicamente entre os Álbuns e a Vista Detalhada. Podes interromper a Apresentação da tua Coleção de Música percorrendo a tua Coleção ou reproduzindo uma Título. Após um Minuto de Inatividade, o ClassicCover volta ao Modo de Demonstração&#160;…</string>
+	<key>CCDemoLabel</key>
+	<string>Loop de Demonstração</string>
+	<key>CCEnableLabel</key>
+	<string>Ativar o Tweak</string>
+	<key>CCEnableSwitch</key>
+	<string>Ativar o ClassicCover</string>
+	<key>CCHapticFeedbackFooter</key>
+	<string>Use o Taptic Engine do seu iPhone para um Feedback discreto ao Interagir com os Controles&#160;…</string>
+	<key>CCHapticFeedbackLabel</key>
+	<string>Tátil</string>
+	<key>CCHapticFeedbackSwitch</key>
+	<string>Feedback tátil</string>
+	<key>CCOpenSourceButton</key>
+	<string>Avisos de Código Aberto</string>
+	<key>CCOpenSourceFooter</key>
+	<string>Dê uma Olhada nos termos de Licença dos Componentes de Código Aberto utilizados.</string>
+	<key>CCOpenSourceLabel</key>
+	<string>Código Aberto</string>
+	<key>CCPreventSleepFooter</key>
+	<string>Se o Modo de Suspensão do Ecrã estiver sempre desativado, isso reduzirá a sua Vida Útil.</string>
+	<key>CCPreventSleepSwitch</key>
+	<string>Manter o Ecrã ligado</string>
+	<key>CCSocialLabel</key>
+	<string>Redes sociais</string>
+	<key>CCSortByAlbumArtistLabel</key>
+	<string>Por Artista do Álbum</string>
+	<key>CCSortByAlbumLabel</key>
+	<string>Por Álbum</string>
+	<key>CCSortByArtistLabel</key>
+	<string>Por Artista</string>
+	<key>CCSortByDateAddedAscendingLabel</key>
+	<string>Por Data de Adição&#160;↑</string>
+	<key>CCSortByDateAddedDescendingLabel</key>
+	<string>Por Data de Adição&#160;↓</string>
+	<key>CCSortByFooter</key>
+	<string>Ao ordenar por Data, observe a Ordem:
+
+↑&#160;= Ordenar de “Hoje” a “Há muito Tempo”.
+↓&#160;= Ordenar de “Há muito Tempo” a “Hoje”.</string>
+	<key>CCSortByGenreLabel</key>
+	<string>Por Género</string>
+	<key>CCSortByLabel</key>
+	<string>Ordenar Álbuns</string>
+	<key>CCSortByLastPlayedDateAscendingLabel</key>
+	<string>Por Data de Reprodução&#160;↑</string>
+	<key>CCSortByLastPlayedDateDescendingLabel</key>
+	<string>Por Data de Reprodução&#160;↓</string>
+	<key>CCSortByRandomLabel</key>
+	<string>Ordem aleatória</string>
+	<key>CCSortFooter</key>
+	<string>Escolha a Ordem de Classificação dos Álbuns&#160;…</string>
+	<key>CCSortLabel</key>
+	<string>Ordem de Classificação</string>
+	<key>CCVisualEffectsFlipShadowSwitch</key>
+	<string>Sombra para a Visualização do Álbum</string>
+	<key>CCVisualEffectsFooter</key>
+	<string>O uso de Reflexos consome bastante Desempenho. Tenha isso em mente ao usar o ClassicCover em Dispositivos mais antigos&#160;…</string>
+	<key>CCVisualEffectsLabel</key>
+	<string>Efeitos Visuais</string>
+	<key>CCVisualEffectsReflectionBlurSwitch</key>
+	<string>⤷&#160;… desfocar</string>
+	<key>CCVisualEffectsReflectionSwitch</key>
+	<string>Reflexos</string>
+</dict>
+</plist>

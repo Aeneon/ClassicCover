@@ -1,0 +1,14 @@
+Package: com.macthemes.classiccover
+Version: 2611
+Section: Tweaks
+Name: ClassicCover
+Author: c0ldra1n & MacThemes <me@macthemes.me>
+Maintainer: Aeneon <me@macthemes.me>
+Icon: file:///Library/PreferenceBundles/ClassicCoverPrefs.bundle/classiccover.png
+Pre-Depends: mobilesubstrate, com.opa334.libsandy | firmware (<< 10), preferenceloader | com.artikus.preferenceloader
+Depends: cy+cpu.arm64, firmware (>= 9), firmware (<< 15)
+Conflicts: io.c0ldra1n.classiccover
+Architecture: iphoneos-arm
+Description: Bring back the good old CoverFlow …
+Depiction: http://macthemes.me/package.php?id=com.macthemes.classiccover
+Tag: compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14

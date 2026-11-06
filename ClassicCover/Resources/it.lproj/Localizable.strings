@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCDateAdded</key>
+	<string>Aggiunto alla Libreria:</string>
+	<key>CCDiscNumber</key>
+	<string>Disco %1$lu di %2$lu</string>
+	<key>CCDuration</key>
+	<string>Durata:</string>
+	<key>CCGenre</key>
+	<string>Genere:</string>
+	<key>CCLastPlayed</key>
+	<string>Ultima riproduzione:</string>
+	<key>CCLastPlayedLastTwoWeeks</key>
+	<string>Due Settimane fa</string>
+	<key>CCLastPlayedLastWeek</key>
+	<string>La Settimana scorsa</string>
+	<key>CCLastPlayedLongTime</key>
+	<string>Moltissimo Tempo fa</string>
+	<key>CCLastPlayedNever</key>
+	<string>Mai</string>
+	<key>CCLastPlayedOneMonth</key>
+	<string>Un Mese fa</string>
+	<key>CCLastPlayedOneYear</key>
+	<string>Un Anno fa</string>
+	<key>CCLastPlayedSixMonths</key>
+	<string>Sei Mesi fa</string>
+	<key>CCLastPlayedThreeMonths</key>
+	<string>Tre Mesi fa</string>
+	<key>CCLastPlayedThreeWeeks</key>
+	<string>Tre Settimane fa</string>
+	<key>CCLastPlayedToday</key>
+	<string>Oggi</string>
+	<key>CCLastPlayedTwoYears</key>
+	<string>Due Anni fa</string>
+	<key>CCLastPlayedYesterday</key>
+	<string>Leri</string>
+	<key>CCTrackCountPlural</key>
+	<string>%@ Brani</string>
+	<key>CCTrackCountSingular</key>
+	<string>%@ Brano</string>
+</dict>
+</plist>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCBackgroundStylePhotoAlertMessage</key>
+	<string>Impossible d’accéder à la Photothèque.</string>
+	<key>CCBackgroundStylePhotoAlertTitle</key>
+	<string>Impossible de charger les Photos&#160;!</string>
+	<key>CCCacheAlertBlurMessage</key>
+	<string>Les Reflets flous nécessitent de Reconstruire le Cache. Veux-tu nettoyer le Cache des Pochettes&#160;?</string>
+	<key>CCCacheAlertCancel</key>
+	<string>Annuler</string>
+	<key>CCCacheAlertCleanUp</key>
+	<string>Nettoyer</string>
+	<key>CCCacheAlertMessage</key>
+	<string>Veux-tu nettoyer le Cache des Pochettes&#160;?</string>
+	<key>CCCacheAlertNoBlurMessage</key>
+	<string>Les Reflets simples nécessitent de Reconstruire le Cache. Veux-tu nettoyer le Cache des Pochettes&#160;?</string>
+	<key>CCCacheAlertOrphanedArtworksMessage</key>
+	<string>Veux-tu supprimer du Cache les Pochettes orphelines&#160;?</string>
+	<key>CCCacheAlertSizeMessage</key>
+	<string>Modifier la Taille des Pochettes nécessite de Reconstruire le Cache. Veux-tu nettoyer le Cache des Pochettes&#160;?</string>
+	<key>CCCacheArtworksTitle</key>
+	<string>Vider le Cache des Pochettes</string>
+	<key>CCCacheOrphanedArtworksTitle</key>
+	<string>Supprimer les Pochettes orphelines</string>
+	<key>CCCacheSubTitleNoArtworks</key>
+	<string>Aucune Pochette dans le Cache</string>
+	<key>CCCacheSubTitleNoOrphanedArtworks</key>
+	<string>Aucune Pochette orpheline dans le Cache</string>
+	<key>CCCacheSubTitlePlural</key>
+	<string>%u Pochettes d’Album d’une Taille de %@</string>
+	<key>CCCacheSubTitleSingular</key>
+	<string>%u Pochette d’Album d’une Taille de %@</string>
+	<key>CCOpenSourceAlertMessage</key>
+	<string>Le Fichier «%@» est introuvable dans les Ressources.</string>
+	<key>CCOpenSourceAlertTitle</key>
+	<string>Mentions Open Source introuvables&#160;!</string>
+	<key>CCOpenSourceLabel</key>
+	<string>Open Source</string>
+	<key>MTBinarySizeBytes</key>
+	<string>Octets</string>
+	<key>MTBinarySizeGB</key>
+	<string>Gio</string>
+	<key>MTBinarySizeKB</key>
+	<string>Kio</string>
+	<key>MTBinarySizeMB</key>
+	<string>Mio</string>
+	<key>MTGeneralOK</key>
+	<string>OK</string>
+	<key>MTSocialSourceSubTitle</key>
+	<string>GitHub</string>
+	<key>MTSocialSourceTitle</key>
+	<string>Code Source</string>
+</dict>
+</plist>

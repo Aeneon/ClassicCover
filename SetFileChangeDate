@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Get Date and Time …
+
+today=$(date +'%Y%m%d')
+
+hour=$(date +'%H')
+minute=$(date +'%M')
+
+# Round down to the nearest 5 Minutes …
+
+minute=$((10#$minute))
+minute=$((minute - minute % 5))
+
+# Format Minute with leading Zero …
+
+minute=$(printf '%02d' "$minute")
+
+# Set the File Change Date …
+
+if [ -d "$1" ]; then
+	find "$1" -type d -print0 | xargs -0 -I '{}' touch -t $today$hour$minute '{}'
+	find "$1" -type f -print0 | xargs -0 -I '{}' touch -t $today$hour$minute '{}'
+fi

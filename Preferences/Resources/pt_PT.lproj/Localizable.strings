@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCBackgroundStylePhotoAlertMessage</key>
+	<string>Não foi possível acessar a biblioteca de fotos.</string>
+	<key>CCBackgroundStylePhotoAlertTitle</key>
+	<string>Não foi possível carregar as Fotos&#160;!</string>
+	<key>CCCacheAlertBlurMessage</key>
+	<string>Reflexos desfocados exigem Recriar o Cache. Quer limpar o Cache das Capas&#160;?</string>
+	<key>CCCacheAlertCancel</key>
+	<string>Cancelar</string>
+	<key>CCCacheAlertCleanUp</key>
+	<string>Limpar</string>
+	<key>CCCacheAlertMessage</key>
+	<string>Quer limpar o Cache das Capas&#160;?</string>
+	<key>CCCacheAlertNoBlurMessage</key>
+	<string>Reflexos simples exigem Recriar o Cache. Quer limpar o Cache das Capas&#160;?</string>
+	<key>CCCacheAlertOrphanedArtworksMessage</key>
+	<string>Quer remover do Cache as Capas órfãs&#160;?</string>
+	<key>CCCacheAlertSizeMessage</key>
+	<string>Alterar o Tamanho das Capas exige Recriar o Cache. Quer limpar o Cache das Capas&#160;?</string>
+	<key>CCCacheArtworksTitle</key>
+	<string>Esvaziar o Cache das Capas</string>
+	<key>CCCacheOrphanedArtworksTitle</key>
+	<string>Remover Capas órfãs</string>
+	<key>CCCacheSubTitleNoArtworks</key>
+	<string>Nenhuma Capa no Cache</string>
+	<key>CCCacheSubTitleNoOrphanedArtworks</key>
+	<string>Nenhuma Capa órfã no Cache</string>
+	<key>CCCacheSubTitlePlural</key>
+	<string>%u Capas de Álbum com Tamanho de %@</string>
+	<key>CCCacheSubTitleSingular</key>
+	<string>%u Capa de Álbum com Tamanho de %@</string>
+	<key>CCOpenSourceAlertMessage</key>
+	<string>O Ficheiro “%@” não foi encontrado nos Recursos.</string>
+	<key>CCOpenSourceAlertTitle</key>
+	<string>Avisos de Código Aberto não encontrados&#160;!</string>
+	<key>CCOpenSourceLabel</key>
+	<string>Código Aberto</string>
+	<key>MTBinarySizeBytes</key>
+	<string>Bytes</string>
+	<key>MTBinarySizeGB</key>
+	<string>GiB</string>
+	<key>MTBinarySizeKB</key>
+	<string>KiB</string>
+	<key>MTBinarySizeMB</key>
+	<string>MiB</string>
+	<key>MTGeneralOK</key>
+	<string>OK</string>
+	<key>MTSocialSourceSubTitle</key>
+	<string>GitHub</string>
+	<key>MTSocialSourceTitle</key>
+	<string>Código-Fonte</string>
+</dict>
+</plist>

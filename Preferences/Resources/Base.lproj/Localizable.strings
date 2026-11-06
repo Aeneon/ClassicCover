@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCBackgroundStylePhotoAlertMessage</key>
+	<string>Cannot access Photo Library.</string>
+	<key>CCBackgroundStylePhotoAlertTitle</key>
+	<string>Error Loading Photos&#160;!</string>
+	<key>CCCacheAlertBlurMessage</key>
+	<string>Blurred Reflections require the Artwork Cache to be rebuilt. Would you like to clean-up the Cache&#160;?</string>
+	<key>CCCacheAlertCancel</key>
+	<string>Cancel</string>
+	<key>CCCacheAlertCleanUp</key>
+	<string>Clean-Up</string>
+	<key>CCCacheAlertMessage</key>
+	<string>Would you like to clean-up the Artwork Cache&#160;?</string>
+	<key>CCCacheAlertNoBlurMessage</key>
+	<string>Basic Reflections require the Artwork Cache to be rebuilt. Would you like to clean-up the Cache&#160;?</string>
+	<key>CCCacheAlertOrphanedArtworksMessage</key>
+	<string>Would you like to remove the orphaned Artworks from the Cache&#160;?</string>
+	<key>CCCacheAlertSizeMessage</key>
+	<string>Changing the Artwork-Size require the Artwork Cache to be rebuilt. Would you like to clean-up the Cache&#160;?</string>
+	<key>CCCacheArtworksTitle</key>
+	<string>Clear Artwork Cache</string>
+	<key>CCCacheOrphanedArtworksTitle</key>
+	<string>Remove orphaned Artworks</string>
+	<key>CCCacheSubTitleNoArtworks</key>
+	<string>No Artworks in the Cache</string>
+	<key>CCCacheSubTitleNoOrphanedArtworks</key>
+	<string>No orphaned Artworks in the Cache</string>
+	<key>CCCacheSubTitlePlural</key>
+	<string>%u Artworks consuming %@</string>
+	<key>CCCacheSubTitleSingular</key>
+	<string>%u Artwork consuming %@</string>
+	<key>CCOpenSourceAlertMessage</key>
+	<string>The File “%@” was not found in the Resources.</string>
+	<key>CCOpenSourceAlertTitle</key>
+	<string>No Open-Source Notices were found&#160;!</string>
+	<key>CCOpenSourceLabel</key>
+	<string>Open-Source Notices</string>
+	<key>MTBinarySizeBytes</key>
+	<string>Bytes</string>
+	<key>MTBinarySizeGB</key>
+	<string>GiB</string>
+	<key>MTBinarySizeKB</key>
+	<string>KiB</string>
+	<key>MTBinarySizeMB</key>
+	<string>MiB</string>
+	<key>MTGeneralOK</key>
+	<string>OK</string>
+	<key>MTSocialSourceSubTitle</key>
+	<string>GitHub</string>
+	<key>MTSocialSourceTitle</key>
+	<string>Source Code</string>
+</dict>
+</plist>

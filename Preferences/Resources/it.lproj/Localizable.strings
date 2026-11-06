@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCBackgroundStylePhotoAlertMessage</key>
+	<string>Impossibile accedere alla Libreria Foto.</string>
+	<key>CCBackgroundStylePhotoAlertTitle</key>
+	<string>Impossibile caricare le Foto&#160;!</string>
+	<key>CCCacheAlertBlurMessage</key>
+	<string>I Riflessi sfocati richiedono di Ricreare la cache. Vuoi pulire la Cache delle Copertine&#160;?</string>
+	<key>CCCacheAlertCancel</key>
+	<string>Annulla</string>
+	<key>CCCacheAlertCleanUp</key>
+	<string>Pulisci</string>
+	<key>CCCacheAlertMessage</key>
+	<string>Vuoi pulire la Cache delle Copertine&#160;?</string>
+	<key>CCCacheAlertNoBlurMessage</key>
+	<string>I Riflessi semplici richiedono di Ricreare la Cache. Vuoi pulire la Cache delle Copertine&#160;?</string>
+	<key>CCCacheAlertOrphanedArtworksMessage</key>
+	<string>Vuoi rimuovere dalla Cache le Copertine orfane&#160;?</string>
+	<key>CCCacheAlertSizeMessage</key>
+	<string>Modificare la Dimensione delle Copertine richiede di Ricreare la Cache. Vuoi pulire la Cache delle Copertine&#160;?</string>
+	<key>CCCacheArtworksTitle</key>
+	<string>Svuota la Cache delle Copertine</string>
+	<key>CCCacheOrphanedArtworksTitle</key>
+	<string>Rimuovi le Copertine orfane</string>
+	<key>CCCacheSubTitleNoArtworks</key>
+	<string>Nessuna Copertina nella Cache</string>
+	<key>CCCacheSubTitleNoOrphanedArtworks</key>
+	<string>Nessuna Copertina orfana nella Cache</string>
+	<key>CCCacheSubTitlePlural</key>
+	<string>%u Copertine di Album, Dimensione: %@</string>
+	<key>CCCacheSubTitleSingular</key>
+	<string>%u Copertina di Album, Dimensione: %@</string>
+	<key>CCOpenSourceAlertMessage</key>
+	<string>Il File “%@” non è stato trovato nelle Risorse.</string>
+	<key>CCOpenSourceAlertTitle</key>
+	<string>Note Open Source non trovate&#160;!</string>
+	<key>CCOpenSourceLabel</key>
+	<string>Open Source</string>
+	<key>MTBinarySizeBytes</key>
+	<string>byte</string>
+	<key>MTBinarySizeGB</key>
+	<string>GiB</string>
+	<key>MTBinarySizeKB</key>
+	<string>KiB</string>
+	<key>MTBinarySizeMB</key>
+	<string>MiB</string>
+	<key>MTGeneralOK</key>
+	<string>OK</string>
+	<key>MTSocialSourceSubTitle</key>
+	<string>GitHub</string>
+	<key>MTSocialSourceTitle</key>
+	<string>Codice Sorgente</string>
+</dict>
+</plist>

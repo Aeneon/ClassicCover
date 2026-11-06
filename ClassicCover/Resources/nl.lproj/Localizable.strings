@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCDateAdded</key>
+	<string>Toegevoegd aan Bibliotheek:</string>
+	<key>CCDiscNumber</key>
+	<string>Schijf %1$lu van %2$lu</string>
+	<key>CCDuration</key>
+	<string>Speelduur:</string>
+	<key>CCGenre</key>
+	<string>Genre:</string>
+	<key>CCLastPlayed</key>
+	<string>Laatst afgespeeld:</string>
+	<key>CCLastPlayedLastTwoWeeks</key>
+	<string>Twee Weken geleden</string>
+	<key>CCLastPlayedLastWeek</key>
+	<string>Vorige Week</string>
+	<key>CCLastPlayedLongTime</key>
+	<string>Heel lang geleden</string>
+	<key>CCLastPlayedNever</key>
+	<string>Nooit</string>
+	<key>CCLastPlayedOneMonth</key>
+	<string>Een Maand geleden</string>
+	<key>CCLastPlayedOneYear</key>
+	<string>Een Jaar geleden</string>
+	<key>CCLastPlayedSixMonths</key>
+	<string>Zes Maanden geleden</string>
+	<key>CCLastPlayedThreeMonths</key>
+	<string>Drie Maanden geleden</string>
+	<key>CCLastPlayedThreeWeeks</key>
+	<string>Drie Weken geleden</string>
+	<key>CCLastPlayedToday</key>
+	<string>Vandaag</string>
+	<key>CCLastPlayedTwoYears</key>
+	<string>Twee Jaar geleden</string>
+	<key>CCLastPlayedYesterday</key>
+	<string>Gisteren</string>
+	<key>CCTrackCountPlural</key>
+	<string>%@ Titels</string>
+	<key>CCTrackCountSingular</key>
+	<string>%@ Titel</string>
+</dict>
+</plist>

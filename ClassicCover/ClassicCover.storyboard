@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" colorMatched="YES" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CCViewController">
+	<device id="retina4_7" appearance="light" orientation="landscape"/>
+	<dependencies>
+		<capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+		<deployment identifier="iOS" version="2304"/>
+		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+	</dependencies>
+	<scenes>
+		<!-- CCViewController -->
+		<scene sceneID="CCViewControllerScene">
+			<objects>
+				<viewController sceneMemberID="viewController" customClass="CCViewController" id="CCViewController">
+					<!-- CCViewControllerLayout -->
+					<layoutGuides>
+						<viewControllerLayoutGuide type="top" id="CCViewControllerTopLayout"/>
+						<viewControllerLayoutGuide type="bottom" id="CCViewControllerBottomLayout"/>
+					</layoutGuides>
+					<!-- CCView -->
+					<view key="view" contentMode="scaleToFill" id="CCView">
+						<rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+						<color key="backgroundColor" white="0.0" alpha="1" colorSpace="deviceWhite"/>
+						<subviews>
+							<!-- CCViewBackground -->
+							<imageView alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" id="CCViewBackground">
+								<rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+							</imageView>
+							<!-- CCViewOverlay -->
+							<view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" id="CCViewOverlay">
+								<rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+								<color key="backgroundColor" white="0.0" alpha="0.525" colorSpace="deviceWhite"/>
+							</view>
+							<!-- CCViewCarousel -->
+							<view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" customClass="iCarousel" id="CCViewCarousel">
+								<rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+								<subviews>
+									<!-- CCViewTopLabel -->
+									<label alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="tailTruncation" opaque="NO" text="" textAlignment="center" userInteractionEnabled="NO" customClass="MarqueeLabel" id="CCViewTopLabel">
+										<rect key="frame" x="48" y="361" width="571" height="0.0"/>
+										<fontDescription key="fontDescription" type="system" pointSize="13"/>
+										<color key="textColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+										<userDefinedRuntimeAttributes>
+											<userDefinedRuntimeAttribute keyPath="animationDelay" type="number">
+												<real key="value" value="5.25"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="fadeLength" type="number">
+												<real key="value" value="10"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="marqueeType" type="number">
+												<integer key="value" value="2"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="rate" type="number">
+												<real key="value" value="30"/>
+											</userDefinedRuntimeAttribute>
+										</userDefinedRuntimeAttributes>
+									</label>
+									<!-- CCViewBottomLabel -->
+									<label alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="tailTruncation" opaque="NO" text="" textAlignment="center" userInteractionEnabled="NO" customClass="MarqueeLabel" id="CCViewBottomLabel">
+										<rect key="frame" x="48" y="364" width="571" height="0.0"/>
+										<fontDescription key="fontDescription" type="system" pointSize="13"/>
+										<color key="textColor" white="1" alpha="0.7" colorSpace="deviceWhite"/>
+										<userDefinedRuntimeAttributes>
+											<userDefinedRuntimeAttribute keyPath="animationDelay" type="number">
+												<real key="value" value="5.25"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="fadeLength" type="number">
+												<real key="value" value="10"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="marqueeType" type="number">
+												<integer key="value" value="2"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="rate" type="number">
+												<real key="value" value="30"/>
+											</userDefinedRuntimeAttribute>
+										</userDefinedRuntimeAttributes>
+									</label>
+									<!-- CCViewPreviousTrack -->
+									<button alpha="0.0" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="middleTruncation" opaque="NO" id="CCViewPreviousTrack">
+										<rect key="frame" x="14" y="334" width="27" height="27"/>
+										<color key="tintColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+										<constraints>
+											<constraint firstAttribute="width" secondItem="CCViewPreviousTrack" secondAttribute="height" multiplier="1:1" id="CCViewPreviousTrackAspectRatioConstraint"/>
+											<constraint firstAttribute="height" constant="27" id="CCViewPreviousTrackFixedHeightConstraint"/>
+										</constraints>
+										<connections>
+											<action destination="CCViewController" eventType="touchUpInside" selector="skipToPreviousTrack:" id="CCViewPreviousTrackTouchUpAction"/>
+										</connections>
+									</button>
+									<!-- CCViewPlayPause -->
+									<button alpha="0.0" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="middleTruncation" opaque="NO" id="CCViewPlayPause">
+										<rect key="frame" x="14" y="334" width="27" height="27"/>
+										<color key="tintColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+										<constraints>
+											<constraint firstAttribute="width" secondItem="CCViewPlayPause" secondAttribute="height" multiplier="1:1" id="CCViewPlayPauseAspectRatioConstraint"/>
+											<constraint firstAttribute="height" constant="27" id="CCViewPlayPauseFixedHeightConstraint"/>
+										</constraints>
+										<connections>
+											<action destination="CCViewController" eventType="touchUpInside" selector="togglePlayPause:" id="CCViewPlayPauseTouchUpAction"/>
+										</connections>
+									</button>
+									<!-- CCViewNextTrack -->
+									<button alpha="0.0" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="middleTruncation" opaque="NO" id="CCViewNextTrack">
+										<rect key="frame" x="14" y="334" width="27" height="27"/>
+										<color key="tintColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+										<constraints>
+											<constraint firstAttribute="width" secondItem="CCViewNextTrack" secondAttribute="height" multiplier="1:1" id="CCViewNextTrackAspectRatioConstraint"/>
+											<constraint firstAttribute="height" constant="27" id="CCViewNextTrackFixedHeightConstraint"/>
+										</constraints>
+										<connections>
+											<action destination="CCViewController" eventType="touchUpInside" selector="skipToNextTrack:" id="CCViewNextTrackTouchUpAction"/>
+										</connections>
+									</button>
+									<!-- CCViewShuffle -->
+									<button alpha="0.0" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="middleTruncation" opaque="NO" id="CCViewShuffle">
+										<rect key="frame" x="585" y="334" width="27" height="27"/>
+										<color key="tintColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+										<constraints>
+											<constraint firstAttribute="width" secondItem="CCViewShuffle" secondAttribute="height" multiplier="1:1" id="CCViewShuffleAspectRatioConstraint"/>
+											<constraint firstAttribute="height" constant="27" id="CCViewShuffleFixedHeightConstraint"/>
+										</constraints>
+										<connections>
+											<action destination="CCViewController" eventType="touchUpInside" selector="toggleShuffleMode:" id="CCViewShuffleTouchUpAction"/>
+										</connections>
+									</button>
+									<!-- CCViewRepeat -->
+									<button alpha="0.0" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="middleTruncation" opaque="NO" id="CCViewRepeat">
+										<rect key="frame" x="626" y="334" width="27" height="27"/>
+										<color key="tintColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+										<constraints>
+											<constraint firstAttribute="width" secondItem="CCViewRepeat" secondAttribute="height" multiplier="1:1" id="CCViewRepeatAspectRatioConstraint"/>
+											<constraint firstAttribute="height" constant="27" id="CCViewRepeatFixedHeightConstraint"/>
+										</constraints>
+										<connections>
+											<action destination="CCViewController" eventType="touchUpInside" selector="toggleRepeatMode:" id="CCViewRepeatTouchUpAction"/>
+										</connections>
+									</button>
+								</subviews>
+								<constraints>
+									<constraint firstAttribute="bottom" secondItem="CCViewBottomLabel" secondAttribute="bottom" constant="11" id="CCViewBottomLabelBottomConstraint"/>
+									<constraint firstAttribute="bottom" secondItem="CCViewPlayPause" secondAttribute="bottom" constant="14" id="CCViewPlayPauseBottomConstraint"/>
+									<constraint firstAttribute="trailing" secondItem="CCViewBottomLabel" secondAttribute="trailing" constant="48" id="CCViewBottomLabelTrailingConstraint"/>
+									<constraint firstAttribute="trailing" secondItem="CCViewRepeat" secondAttribute="trailing" constant="14" id="CCViewRepeatTrailingConstraint"/>
+									<constraint firstAttribute="trailing" secondItem="CCViewTopLabel" secondAttribute="trailing" constant="48" id="CCViewTopLabelTrailingConstraint"/>
+									<constraint firstItem="CCViewBottomLabel" firstAttribute="centerX" secondItem="CCViewCarousel" secondAttribute="centerX" id="CCViewBottomLabelCenterXConstraint"/>
+									<constraint firstItem="CCViewBottomLabel" firstAttribute="leading" secondItem="CCViewCarousel" secondAttribute="leading" constant="48" id="CCViewBottomLabelLeadingConstraint"/>
+									<constraint firstItem="CCViewBottomLabel" firstAttribute="top" secondItem="CCViewTopLabel" secondAttribute="bottom" constant="3" id="CCViewBottomLabelTopConstraint"/>
+									<constraint firstItem="CCViewNextTrack" firstAttribute="centerY" secondItem="CCViewPlayPause" secondAttribute="centerY" id="CCViewNextTrackCenterYConstraint"/>
+									<constraint firstItem="CCViewNextTrack" firstAttribute="leading" secondItem="CCViewCarousel" secondAttribute="leading" constant="14" id="CCViewNextTrackLeadingConstraint"/>
+									<constraint firstItem="CCViewPlayPause" firstAttribute="leading" secondItem="CCViewCarousel" secondAttribute="leading" constant="14" id="CCViewPlayPauseLeadingConstraint"/>
+									<constraint firstItem="CCViewPreviousTrack" firstAttribute="centerY" secondItem="CCViewPlayPause" secondAttribute="centerY" id="CCViewPreviousTrackCenterYConstraint"/>
+									<constraint firstItem="CCViewPreviousTrack" firstAttribute="leading" secondItem="CCViewCarousel" secondAttribute="leading" constant="14" id="CCViewPreviousTrackLeadingConstraint"/>
+									<constraint firstItem="CCViewRepeat" firstAttribute="centerY" secondItem="CCViewPlayPause" secondAttribute="centerY" id="CCViewRepeatCenterYConstraint"/>
+									<constraint firstItem="CCViewRepeat" firstAttribute="leading" secondItem="CCViewShuffle" secondAttribute="trailing" constant="14" id="CCViewRepeatLeadingConstraint"/>
+									<constraint firstItem="CCViewShuffle" firstAttribute="centerY" secondItem="CCViewPlayPause" secondAttribute="centerY" id="CCViewShuffleCenterYConstraint"/>
+									<constraint firstItem="CCViewTopLabel" firstAttribute="centerX" secondItem="CCViewCarousel" secondAttribute="centerX" id="CCViewTopLabelCenterYConstraint"/>
+									<constraint firstItem="CCViewTopLabel" firstAttribute="leading" secondItem="CCViewCarousel" secondAttribute="leading" constant="48" id="CCViewTopLabelLeadingConstraint"/>
+								</constraints>
+								<connections>
+									<outlet destination="CCViewController" property="dataSource" id="CCViewDataSource"/>
+									<outlet destination="CCViewController" property="delegate" id="CCViewDelegate"/>
+								</connections>
+							</view>
+						</subviews>
+						<constraints>
+							<constraint firstItem="CCViewBackground" firstAttribute="bottom" secondItem="CCView" secondAttribute="bottom" id="CCViewBackgroundBottomConstraint"/>
+							<constraint firstItem="CCViewBackground" firstAttribute="leading" secondItem="CCView" secondAttribute="leading" id="CCViewBackgroundLeadingConstraint"/>
+							<constraint firstItem="CCViewBackground" firstAttribute="top" secondItem="CCView" secondAttribute="top" id="CCViewBackgroundTopConstraint"/>
+							<constraint firstItem="CCViewBackground" firstAttribute="trailing" secondItem="CCView" secondAttribute="trailing" id="CCViewBackgroundTrailingConstraint"/>
+							<constraint firstItem="CCViewCarousel" firstAttribute="bottom" secondItem="CCView" secondAttribute="bottom" id="CCViewCarouselBottomConstraint"/>
+							<constraint firstItem="CCViewCarousel" firstAttribute="leading" secondItem="CCView" secondAttribute="leading" id="CCViewCarouselLeadingConstraint"/>
+							<constraint firstItem="CCViewCarousel" firstAttribute="top" secondItem="CCView" secondAttribute="top" id="CCViewCarouselTopConstraint"/>
+							<constraint firstItem="CCViewCarousel" firstAttribute="trailing" secondItem="CCView" secondAttribute="trailing" id="CCViewCarouselTrailingConstraint"/>
+							<constraint firstItem="CCViewOverlay" firstAttribute="bottom" secondItem="CCView" secondAttribute="bottom" id="CCViewOverlayBottomConstraint"/>
+							<constraint firstItem="CCViewOverlay" firstAttribute="leading" secondItem="CCView" secondAttribute="leading" id="CCViewOverlayLeadingConstraint"/>
+							<constraint firstItem="CCViewOverlay" firstAttribute="top" secondItem="CCView" secondAttribute="top" id="CCViewOverlayTopConstraint"/>
+							<constraint firstItem="CCViewOverlay" firstAttribute="trailing" secondItem="CCView" secondAttribute="trailing" id="CCViewOverlayTrailingConstraint"/>
+						</constraints>
+					</view>
+					<connections>
+						<outlet destination="CCViewBackground" property="backgroundWallpaper" id="CCViewBackgroundOutlet"/>
+						<outlet destination="CCViewBottomLabel" property="bottomLabel" id="CCViewBottomLabelOutlet"/>
+						<outlet destination="CCViewBottomLabelBottomConstraint" property="bottomLabelBottomConstraint" id="CCViewBottomLabelBottomConstraintOutlet"/>
+						<outlet destination="CCViewCarousel" property="carouselView" id="CCViewCarouselOutlet"/>
+						<outlet destination="CCViewCarouselLeadingConstraint" property="carouselLeadingConstraint" id="CCViewCarouselLeadingConstraintOutlet"/>
+						<outlet destination="CCViewCarouselTrailingConstraint" property="carouselTrailingConstraint" id="CCViewCarouselTrailingConstraintOutlet"/>
+						<outlet destination="CCViewNextTrack" property="nextTrackButton" id="CCViewNextTrackOutlet"/>
+						<outlet destination="CCViewNextTrackLeadingConstraint" property="nextTrackLeadingConstraint" id="CCViewNextTrackLeadingConstraintOutlet"/>
+						<outlet destination="CCViewOverlay" property="overlayView" id="CCViewOverlayOutlet"/>
+						<outlet destination="CCViewPlayPause" property="playPauseButton" id="CCViewPlayPauseOutlet"/>
+						<outlet destination="CCViewPlayPauseLeadingConstraint" property="playPauseLeadingConstraint" id="CCViewPlayPauseLeadingConstraintOutlet"/>
+						<outlet destination="CCViewPreviousTrack" property="previousTrackButton" id="CCViewPreviousTrackOutlet"/>
+						<outlet destination="CCViewRepeat" property="repeatButton" id="CCViewRepeatOutlet"/>
+						<outlet destination="CCViewShuffle" property="shuffleButton" id="CCViewShuffleOutlet"/>
+						<outlet destination="CCViewTopLabel" property="topLabel" id="CCViewTopLabelOutlet"/>
+					</connections>
+				</viewController>
+				<placeholder placeholderIdentifier="IBFirstResponder" userLabel="First Responder" sceneMemberID="firstResponder" id="CCViewControllerFirstResponder"/>
+			</objects>
+			<point key="canvasLocation" x="0" y="0"/>
+		</scene>
+		<!-- CCDetailViewController -->
+		<scene sceneID="CCDetailViewControllerScene">
+			<objects>
+				<viewController sceneMemberID="viewController" storyboardIdentifier="albumTracksViewController" customClass="CCDetailViewController" id="CCDetailViewController">
+					<freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+					<size key="freeformSize" width="300" height="300"/>
+					<!-- CCDetailViewControllerLayout -->
+					<layoutGuides>
+						<viewControllerLayoutGuide type="top" id="CCDetailViewControllerTopLayout"/>
+						<viewControllerLayoutGuide type="bottom" id="CCDetailViewControllerBottomLayout"/>
+					</layoutGuides>
+					<!-- CCDetailView -->
+					<view key="view" contentMode="scaleToFill" customClass="CCDetailView" id="CCDetailView">
+						<rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+						<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="deviceWhite"/>
+						<subviews>
+							<!-- CCDetailViewBackground -->
+							<imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" clipsSubviews="YES" userInteractionEnabled="NO" id="CCDetailViewBackground">
+								<rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+								<color key="backgroundColor" white="1" alpha="0.0" colorSpace="deviceWhite"/>
+							</imageView>
+							<!-- CCDetailViewBar -->
+							<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CCDetailViewBar">
+								<rect key="frame" x="0.0" y="0.0" width="300" height="60"/>
+								<color key="backgroundColor" white="0.0" alpha="0.7" colorSpace="deviceWhite"/>
+								<subviews>
+									<!-- CCDetailViewArtwork -->
+									<imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" id="CCDetailViewArtwork">
+										<rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+										<constraints>
+											<constraint firstAttribute="width" secondItem="CCDetailViewArtwork" secondAttribute="height" multiplier="1:1" id="CCDetailViewArtworkAspectRatioConstraint"/>
+										</constraints>
+									</imageView>
+									<!-- CCDetailViewAlbumLabel -->
+									<label contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="tailTruncation" opaque="NO" text="Album" textAlignment="natural" userInteractionEnabled="NO" customClass="MarqueeLabel" id="CCDetailViewAlbumLabel">
+										<rect key="frame" x="70" y="8" width="220" height="21.5"/>
+										<fontDescription key="fontDescription" type="system" pointSize="18"/>
+										<color key="textColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+										<userDefinedRuntimeAttributes>
+											<userDefinedRuntimeAttribute keyPath="animationDelay" type="number">
+												<real key="value" value="2.625"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="fadeLength" type="number">
+												<real key="value" value="10"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="rate" type="number">
+												<real key="value" value="30"/>
+											</userDefinedRuntimeAttribute>
+										</userDefinedRuntimeAttributes>
+									</label>
+									<!-- CCDetailViewArtistLabel -->
+									<label contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="tailTruncation" opaque="NO" text="Artist" textAlignment="natural" userInteractionEnabled="NO" customClass="MarqueeLabel" id="CCDetailViewArtistLabel">
+										<rect key="frame" x="70" y="32.5" width="220" height="17"/>
+										<fontDescription key="fontDescription" type="system" pointSize="14"/>
+										<color key="textColor" white="1" alpha="0.7" colorSpace="deviceWhite"/>
+										<userDefinedRuntimeAttributes>
+											<userDefinedRuntimeAttribute keyPath="animationDelay" type="number">
+												<real key="value" value="2.625"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="fadeLength" type="number">
+												<real key="value" value="10"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute keyPath="rate" type="number">
+												<real key="value" value="30"/>
+											</userDefinedRuntimeAttribute>
+										</userDefinedRuntimeAttributes>
+									</label>
+									<!-- CCDetailViewGenreLabel -->
+									<label contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="tailTruncation" hidden="YES" opaque="NO" text="Genre" textAlignment="natural" userInteractionEnabled="NO" customClass="MarqueeLabel" id="CCDetailViewGenreLabel">
+										<rect key="frame" x="70" y="53.5" width="220" height="17"/>
+										<fontDescription key="fontDescription" type="system" pointSize="14"/>
+										<color key="textColor" white="1" alpha="0.7" colorSpace="deviceWhite"/>
+										<userDefinedRuntimeAttributes>
+											<userDefinedRuntimeAttribute type="number" keyPath="animationDelay">
+												<real key="value" value="2.625"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+												<real key="value" value="10"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute type="number" keyPath="rate">
+												<real key="value" value="30"/>
+											</userDefinedRuntimeAttribute>
+										</userDefinedRuntimeAttributes>
+									</label>
+									<!-- CCDetailViewDurationLabel -->
+									<label contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="tailTruncation" hidden="YES" opaque="NO" text="Tracks, Duration" textAlignment="natural" userInteractionEnabled="NO" customClass="MarqueeLabel" id="CCDetailViewDurationLabel">
+										<rect key="frame" x="70" y="35.5" width="220" height="14.5"/>
+										<fontDescription key="fontDescription" type="system" pointSize="12"/>
+										<color key="textColor" white="1" alpha="0.7" colorSpace="deviceWhite"/>
+										<userDefinedRuntimeAttributes>
+											<userDefinedRuntimeAttribute type="number" keyPath="animationDelay">
+												<real key="value" value="2.625"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+												<real key="value" value="10"/>
+											</userDefinedRuntimeAttribute>
+											<userDefinedRuntimeAttribute type="number" keyPath="rate">
+												<real key="value" value="30"/>
+											</userDefinedRuntimeAttribute>
+										</userDefinedRuntimeAttributes>
+									</label>
+								</subviews>
+								<constraints>
+									<constraint firstAttribute="bottom" secondItem="CCDetailViewArtwork" secondAttribute="bottom" id="CCDetailViewArtworkBottomConstraint"/>
+									<constraint firstAttribute="bottom" secondItem="CCDetailViewDurationLabel" secondAttribute="bottom" constant="10" id="CCDetailViewDurationLabelBottomConstraint"/>
+									<constraint firstAttribute="height" constant="60" id="CCDetailViewBarFixedHeightConstraint"/>
+									<constraint firstAttribute="trailing" secondItem="CCDetailViewAlbumLabel" secondAttribute="trailing" constant="10" id="CCDetailViewAlbumLabelTrailingConstraint"/>
+									<constraint firstAttribute="trailing" secondItem="CCDetailViewArtistLabel" secondAttribute="trailing" constant="10" id="CCDetailViewArtistLabelTrailingConstraint"/>
+									<constraint firstAttribute="trailing" secondItem="CCDetailViewDurationLabel" secondAttribute="trailing" constant="10" id="CCDetailViewDurationLabelTrailingConstraint"/>
+									<constraint firstAttribute="trailing" secondItem="CCDetailViewGenreLabel" secondAttribute="trailing" constant="10" id="CCDetailViewGenreLabelTrailingConstraint"/>
+									<constraint firstItem="CCDetailViewAlbumLabel" firstAttribute="leading" secondItem="CCDetailViewArtwork" secondAttribute="trailing" constant="10" id="CCDetailViewAlbumLabelLeadingConstraint"/>
+									<constraint firstItem="CCDetailViewAlbumLabel" firstAttribute="top" secondItem="CCDetailViewBar" secondAttribute="top" constant="8" id="CCDetailViewAlbumLabelTopConstraint"/>
+									<constraint firstItem="CCDetailViewArtistLabel" firstAttribute="leading" secondItem="CCDetailViewArtwork" secondAttribute="trailing" constant="10" id="CCDetailViewArtistLabelLeadingConstraint"/>
+									<constraint firstItem="CCDetailViewArtistLabel" firstAttribute="top" secondItem="CCDetailViewAlbumLabel" secondAttribute="bottom" constant="3" id="CCDetailViewArtistLabelTopConstraint"/>
+									<constraint firstItem="CCDetailViewArtwork" firstAttribute="leading" secondItem="CCDetailViewBar" secondAttribute="leading" id="CCDetailViewArtworkLeadingConstraint"/>
+									<constraint firstItem="CCDetailViewArtwork" firstAttribute="top" secondItem="CCDetailViewBar" secondAttribute="top" id="CCDetailViewArtworkTopConstraint"/>
+									<constraint firstItem="CCDetailViewDurationLabel" firstAttribute="leading" secondItem="CCDetailViewArtwork" secondAttribute="trailing" constant="10" id="CCDetailViewDurationLabelLeadingConstraint"/>
+									<constraint firstItem="CCDetailViewGenreLabel" firstAttribute="leading" secondItem="CCDetailViewArtwork" secondAttribute="trailing" constant="10" id="CCDetailViewGenreLabelLeadingConstraint"/>
+									<constraint firstItem="CCDetailViewGenreLabel" firstAttribute="top" secondItem="CCDetailViewArtistLabel" secondAttribute="bottom" constant="4" id="CCDetailViewDurationLabelTopConstraint"/>
+								</constraints>
+							</view>
+							<!-- CCDetailViewTable -->
+							<tableView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" alwaysBounceVertical="YES" clipsSubviews="YES" dataMode="prototypes" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" separatorStyle="none" style="plain" id="CCDetailViewTable">
+								<rect key="frame" x="0.0" y="60" width="300" height="240"/>
+								<color key="backgroundColor" white="0.0" alpha="0.525" colorSpace="deviceWhite"/>
+								<color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="deviceWhite"/>
+								<prototypes>
+									<!-- CCDetailViewTableCell -->
+									<tableViewCell contentMode="scaleToFill" clipsSubviews="YES" indentationWidth="10" multipleTouchEnabled="YES" rowHeight="50" selectionStyle="default" reuseIdentifier="CCDetailViewTableCell" customClass="CCDetailViewTableCell" id="CCDetailViewTableCell">
+										<rect key="frame" x="0.0" y="28" width="300" height="50"/>
+										<autoresizingMask key="autoresizingMask"/>
+										<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="deviceWhite"/>
+										<tableViewCellContentView key="contentView" contentMode="center" clipsSubviews="YES" multipleTouchEnabled="YES" opaque="NO" tableViewCell="CCDetailViewTableCell" id="CCDetailViewTableCellContent">
+											<rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+											<autoresizingMask key="autoresizingMask"/>
+											<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="deviceWhite"/>
+											<subviews>
+												<!-- CCDetailViewTrackNumberLabel -->
+												<label contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="tailTruncation" opaque="NO" text="000" textAlignment="center" userInteractionEnabled="NO" id="CCDetailViewTrackNumberLabel">
+													<rect key="frame" x="7" y="16" width="28" height="18"/>
+													<fontDescription key="fontDescription" type="system" pointSize="15"/>
+													<color key="textColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+													<constraints>
+														<constraint firstAttribute="width" constant="28" id="CCDetailViewTrackNumberLabelFixedWidthConstraint"/>
+													</constraints>
+												</label>
+												<!-- CCDetailViewNowPlayingIndicator -->
+												<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" hidden="YES" customClass="CCNowPlayingIndicatorView" id="CCDetailViewNowPlayingIndicator">
+													<rect key="frame" x="14" y="18.5" width="14" height="13"/>
+													<color key="backgroundColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+													<constraints>
+														<constraint firstAttribute="width" constant="14" id="CCDetailViewNowPlayingIndicatorFixedWidthConstraint"/>
+														<constraint firstAttribute="height" constant="13" id="CCDetailViewNowPlayingIndicatorFixedHeightConstraint"/>
+													</constraints>
+												</view>
+												<!-- CCDetailViewTrackTitleLabel -->
+												<label contentMode="left" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="tailTruncation" opaque="NO" text="Track Title" textAlignment="natural" userInteractionEnabled="NO" customClass="MarqueeLabel" id="CCDetailViewTrackTitleLabel">
+													<rect key="frame" x="44" y="16" width="194" height="18"/>
+													<fontDescription key="fontDescription" type="system" pointSize="15"/>
+													<color key="textColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+													<userDefinedRuntimeAttributes>
+														<userDefinedRuntimeAttribute keyPath="animationDelay" type="number">
+															<real key="value" value="1.75"/>
+														</userDefinedRuntimeAttribute>
+														<userDefinedRuntimeAttribute keyPath="fadeLength" type="number">
+															<real key="value" value="10"/>
+														</userDefinedRuntimeAttribute>
+														<userDefinedRuntimeAttribute keyPath="holdScrolling" type="boolean" value="YES"/>
+														<userDefinedRuntimeAttribute keyPath="rate" type="number">
+															<real key="value" value="30"/>
+														</userDefinedRuntimeAttribute>
+													</userDefinedRuntimeAttributes>
+												</label>
+												<!-- CCDetailViewTrackLengthLabel -->
+												<label contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" lineBreakMode="tailTruncation" opaque="NO" text="00:00" textAlignment="center" userInteractionEnabled="NO" id="CCDetailViewTrackLengthLabel">
+													<rect key="frame" x="247" y="16" width="46" height="18"/>
+													<fontDescription key="fontDescription" type="system" pointSize="15"/>
+													<color key="textColor" white="1" alpha="1" colorSpace="deviceWhite"/>
+													<constraints>
+														<constraint firstAttribute="width" constant="46" id="CCDetailViewTrackLengthLabelFixedWidthConstraint"/>
+													</constraints>
+												</label>
+											</subviews>
+											<constraints>
+												<constraint firstAttribute="trailing" secondItem="CCDetailViewTrackLengthLabel" secondAttribute="trailing" constant="7" id="CCDetailViewTrackLengthLabelTrailingConstraint"/>
+												<constraint firstItem="CCDetailViewNowPlayingIndicator" firstAttribute="centerX" secondItem="CCDetailViewTrackNumberLabel" secondAttribute="centerX" id="CCDetailViewNowPlayingIndicatorCenterXConstraint"/>
+												<constraint firstItem="CCDetailViewNowPlayingIndicator" firstAttribute="centerY" secondItem="CCDetailViewTrackNumberLabel" secondAttribute="centerY" id="CCDetailViewNowPlayingIndicatorCenterYConstraint"/>
+												<constraint firstItem="CCDetailViewTrackLengthLabel" firstAttribute="centerY" secondItem="CCDetailViewTableCellContent" secondAttribute="centerY" id="CCDetailViewTrackLengthLabelCenterYConstraint"/>
+												<constraint firstItem="CCDetailViewTrackLengthLabel" firstAttribute="leading" secondItem="CCDetailViewTrackTitleLabel" secondAttribute="trailing" priority="999" constant="9" id="CCDetailViewTrackLengthLabelLeadingConstraint"/>
+												<constraint firstItem="CCDetailViewTrackNumberLabel" firstAttribute="centerY" secondItem="CCDetailViewTableCellContent" secondAttribute="centerY" id="CCDetailViewTrackNumberLabelCenterYConstraint"/>
+												<constraint firstItem="CCDetailViewTrackNumberLabel" firstAttribute="leading" secondItem="CCDetailViewTableCellContent" secondAttribute="leading" constant="7" id="CCDetailViewTrackNumberLabelLeadingConstraint"/>
+												<constraint firstItem="CCDetailViewTrackTitleLabel" firstAttribute="centerY" secondItem="CCDetailViewTableCellContent" secondAttribute="centerY" id="CCDetailViewTrackTitleLabelCenterYConstraint"/>
+												<constraint firstItem="CCDetailViewTrackTitleLabel" firstAttribute="leading" secondItem="CCDetailViewTrackNumberLabel" secondAttribute="trailing" priority="900" constant="9" id="CCDetailViewTrackTitleLabelLeadingConstraint"/>
+											</constraints>
+										</tableViewCellContentView>
+										<connections>
+											<outlet destination="CCDetailViewNowPlayingIndicator" property="nowPlayingIndicatorView" id="CCDetailViewNowPlayingIndicatorOutlet"/>
+											<outlet destination="CCDetailViewTrackLengthLabel" property="trackLengthLabel" id="CCDetailViewTrackLengthLabelOutlet"/>
+											<outlet destination="CCDetailViewTrackNumberLabel" property="trackNumberLabel" id="CCDetailViewTrackNumberLabelOutlet"/>
+											<outlet destination="CCDetailViewTrackTitleLabel" property="trackTitleLabel" id="CCDetailViewTrackTitleLabelOutlet"/>
+										</connections>
+									</tableViewCell>
+								</prototypes>
+								<connections>
+									<outlet destination="CCDetailViewController" property="dataSource" id="CCDetailViewDataSource"/>
+									<outlet destination="CCDetailViewController" property="delegate" id="CCDetailViewDelegate"/>
+								</connections>
+							</tableView>
+						</subviews>
+						<constraints>
+							<constraint firstAttribute="trailing" secondItem="CCDetailViewBar" secondAttribute="trailing" id="CCDetailViewBarTrailingConstraint"/>
+							<constraint firstAttribute="trailing" secondItem="CCDetailViewTable" secondAttribute="trailing" id="CCDetailViewTableTrailingConstraint"/>
+							<constraint firstItem="CCDetailViewBackground" firstAttribute="centerX" secondItem="CCDetailView" secondAttribute="centerX" id="CCDetailViewBackgroundCenterXConstraint"/>
+							<constraint firstItem="CCDetailViewBackground" firstAttribute="centerY" secondItem="CCDetailView" secondAttribute="centerY" id="CCDetailViewBackgroundCenterYConstraint"/>
+							<constraint firstItem="CCDetailViewBackground" firstAttribute="height" secondItem="CCDetailView" secondAttribute="height" id="CCDetailViewBackgroundHeightConstraint"/>
+							<constraint firstItem="CCDetailViewBackground" firstAttribute="width" secondItem="CCDetailView" secondAttribute="width" id="CCDetailViewBackgroundWidthConstraint"/>
+							<constraint firstItem="CCDetailViewBar" firstAttribute="leading" secondItem="CCDetailView" secondAttribute="leading" id="CCDetailViewBarLeadingConstraint"/>
+							<constraint firstItem="CCDetailViewBar" firstAttribute="top" secondItem="CCDetailView" secondAttribute="top" id="CCDetailViewBarTopConstraint"/>
+							<constraint firstItem="CCDetailViewControllerBottomLayout" firstAttribute="top" secondItem="CCDetailViewTable" secondAttribute="bottom" id="CCDetailViewControllerBottomLayoutTopConstraint"/>
+							<constraint firstItem="CCDetailViewTable" firstAttribute="leading" secondItem="CCDetailView" secondAttribute="leading" id="CCDetailViewTableLeadingConstraint"/>
+							<constraint firstItem="CCDetailViewTable" firstAttribute="top" secondItem="CCDetailViewBar" secondAttribute="bottom" id="CCDetailViewTableTopConstraint"/>
+						</constraints>
+						<connections>
+							<outlet destination="CCDetailViewAlbumLabel" property="albumLabel" id="CCDetailViewAlbumLabelOutlet"/>
+							<outlet destination="CCDetailViewArtistLabel" property="artistLabel" id="CCDetailViewArtistLabelOutlet"/>
+							<outlet destination="CCDetailViewArtwork" property="artwork" id="CCDetailViewArtworkOutlet"/>
+							<outlet destination="CCDetailViewBackground" property="backgroundArtwork" id="CCDetailViewBackgroundOutlet"/>
+							<outlet destination="CCDetailViewBar" property="barView" id="CCDetailViewBarOutlet"/>
+							<outlet destination="CCDetailViewBarFixedHeightConstraint" property="barViewHeightConstraint" id="CCDetailViewBarFixedHeightConstraintOutlet"/>
+							<outlet destination="CCDetailViewDurationLabel" property="durationLabel" id="CCDetailViewDurationLabelOutlet"/>
+							<outlet destination="CCDetailViewGenreLabel" property="genreLabel" id="CCDetailViewGenreLabelOutlet"/>
+							<outlet destination="CCDetailViewTable" property="trackTable" id="CCDetailViewTableOutlet"/>
+						</connections>
+					</view>
+				</viewController>
+				<placeholder placeholderIdentifier="IBFirstResponder" userLabel="First Responder" sceneMemberID="firstResponder" id="CCDetailViewControllerFirstResponder"/>
+			</objects>
+			<point key="canvasLocation" x="0" y="630"/>
+		</scene>
+	</scenes>
+</document>

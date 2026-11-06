@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+echo "=================================="
+echo "Creating Directory for Cache ..."
+
+mkdir -p "/var/mobile/Library/Caches/MacThemes/" &> /dev/null
+
+if [ -d "/var/mobile/Library/Caches/MacThemes" ]; then
+	chown -R mobile:mobile "/var/mobile/Library/Caches/MacThemes"
+fi
+
+echo "=================================="
+echo "Fixing Permissions ..."
+
+chown -R root:wheel "/Library/Application Support/MacThemes/" "/Library/libSandy/ClassicCover.plist" "/Library/MobileSubstrate/DynamicLibraries/ClassicCover"* "/Library/PreferenceBundles/ClassicCoverPrefs.bundle" "/Library/PreferenceLoader/Preferences/ClassicCoverPrefs.plist" &> /dev/null
+
+echo "=================================="
+echo "Killing all Music-Instances ..."
+
+/usr/bin/killall -9 Music &> /dev/null
+
+echo "Killing Preferences ..."
+
+/usr/bin/killall -9 Preferences &> /dev/null
+
+echo "=================================="

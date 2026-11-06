@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCTintColors</key>
+	<dict>
+		<key>CCButtonArtworkCache</key>
+		<string>#ff3945:1.0</string>
+		<key>CCButtonBackgroundImage</key>
+		<string>#c46eff:1.0</string>
+		<key>CCButtonOpenSource</key>
+		<string>#c46eff:1.0</string>
+		<key>CCButtonOrphanedArtworks</key>
+		<string>#c46eff:1.0</string>
+		<key>CCSwitchAutoHideLabels</key>
+		<string>#8a72ff:1.0</string>
+		<key>CCSwitchDebugLogging</key>
+		<string>#7a797f:1.0</string>
+		<key>CCSwitchDemoEnable</key>
+		<string>#8a72ff:1.0</string>
+		<key>CCSwitchEnable</key>
+		<string>#8a72ff:1.0</string>
+		<key>CCSwitchFlipShadow</key>
+		<string>#8a72ff:1.0</string>
+		<key>CCSwitchHapticFeedback</key>
+		<string>#8a72ff:1.0</string>
+		<key>CCSwitchPreventSleep</key>
+		<string>#ff3945:1.0</string>
+		<key>CCSwitchReflection</key>
+		<string>#8a72ff:1.0</string>
+		<key>CCSwitchReflectionBlur</key>
+		<string>#a08cff:1.0</string>
+	</dict>
+	<key>MTTintColors</key>
+	<dict>
+		<key>MTNavigationBar</key>
+		<string>#4f75ff:1.0</string>
+		<key>MTSocialTwitter</key>
+		<string>#0098c0:1.0</string>
+		<key>MTSocialWebsite</key>
+		<string>#727373:1.0</string>
+		<key>MTWindow</key>
+		<string>#c46eff:1.0</string>
+	</dict>
+</dict>
+</plist>

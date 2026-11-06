@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+if [ "$1" = "remove" ]; then
+	echo "=================================="
+	echo "Removing Cache-Directory ..."
+
+	if [[ -d "/var/mobile/Library/Caches/MacThemes/ClassicCover.artworks" || -f "/var/mobile/Library/Caches/MacThemes/ClassicCover.background" ]]; then
+		rm -rf "/var/mobile/Library/Caches/MacThemes/ClassicCover."*
+
+		rmdir --ignore-fail-on-non-empty "/var/mobile/Library/Caches/MacThemes"
+	fi
+fi
+
+echo "=================================="
+echo "Killing all Music-Instances ..."
+
+/usr/bin/killall -9 Music &> /dev/null
+
+echo "Killing Preferences ..."
+
+/usr/bin/killall -9 Preferences &> /dev/null
+
+echo "=================================="
