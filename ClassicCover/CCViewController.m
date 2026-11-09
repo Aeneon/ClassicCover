@@ -2,7 +2,7 @@
 	CCViewController.m
 	ClassicCover
 
-	Created by c0ldra1n on 3/5/17; Updated by MacThemes on 11/4/26.
+	Created by c0ldra1n on 3/5/17; Updated by MacThemes on 11/7/26.
 	Copyright © 2017 c0ldra1n & © 2026 MacThemes. All rights reserved.
 */
 
@@ -365,7 +365,7 @@
 		{
 			// Ohh, the Interface will be hidden …
 
-			self -> _interfaceVisible = YES;
+			self -> _interfaceVisible = NO;
 
 			// Let's suspend ClassicCover's Activity …
 
@@ -638,7 +638,6 @@
 			// Get the current Album from our Collection …
 
 			MPMediaItemCollection *collection = self -> _albums[index];
-
 
 			albumArtView.album = collection;
 
@@ -2226,19 +2225,19 @@
 					self -> _albumIdentifiers = [albumIdentifiers copy];
 					self -> _albumsLibraryDate = libraryDate;
 
-					// A flipped Card doesn't survive the Reload, so reset the Interface first …
-
-					[self resetAlbumDetailState];
-
 					// Initialize the iCarousel-View …
 
 					[self.carouselView setType: [CC_PREFS_VALUE_FOR_KEY(CCPrefsCoverStyleKey) integerValue]];
 
-					// If we can't re-use the Album Collection …
+					// If we can't re-use the Album Collection, …
 
 					if(!canAlbumsReused)
 					{
-						// … reload iCarousel View's Data.
+						// … a flipped Card doesn't survive the Reload, so reset the Interface first …
+
+						[self resetAlbumDetailState];
+
+						// … and reload iCarousel View's Data.
 
 						[self.carouselView reloadData];
 					}
@@ -2360,10 +2359,14 @@
 				self.previousTrackButton.alpha = detailViewAlpha;
 				self.nextTrackButton.alpha = detailViewAlpha;
 
+				// Keep the Information Labels hidden while the preserved Album Detail View is shown …
+
+				CGFloat albumInfoAlpha = self -> _albumDetailVisible ? 0.0 : alpha;
+
 				// Set the Alpha for the Information Labels …
 
-				self.topLabel.alpha = alpha;
-				self.bottomLabel.alpha = alpha;
+				self.topLabel.alpha = albumInfoAlpha;
+				self.bottomLabel.alpha = albumInfoAlpha;
 
 				// Update our Playback Controls without being Part of this Animation …
 
@@ -2502,9 +2505,15 @@
 
 			[self cancelAlbumInfoFade];
 
+			// Suspend Animations …
+
 			[self setAnimationStateInView: self.view suspended: YES];
 
+			// Allow Display going into Sleep …
+
 			[self caffeinate: NO];
+
+			// Stop observing Playback Changes …
 
 			for(CCAlbumArtView *card in self.carouselView.visibleItemViews)
 			{

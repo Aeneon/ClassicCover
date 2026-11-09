@@ -2,7 +2,7 @@
 	CCViewController.h
 	ClassicCover
 
-	Created by c0ldra1n on 3/5/17; Updated by MacThemes on 11/4/26.
+	Created by c0ldra1n on 3/5/17; Updated by MacThemes on 11/7/26.
 	Copyright © 2017 c0ldra1n & © 2026 MacThemes. All rights reserved.
 */
 
